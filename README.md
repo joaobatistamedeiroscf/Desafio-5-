@@ -1,73 +1,47 @@
-# Welcome to your Lovable project
+# 🏥 Projeto Telemedicina - SAÚDE
 
-## Project info
+## 💡 Descrição
 
-**URL**: https://lovable.dev/projects/2c7c6127-07c3-47df-b60e-4e853e22bb35
+Este projeto tem como objetivo proporcionar **acesso facilitado à telemedicina** no estado do **Maranhão (MA)**. Desenvolvemos uma plataforma web informativa sobre telemedicina, com **sistema de agendamento de consultas** e **cadastro de pacientes**, promovendo inclusão digital e melhoria no acesso aos serviços de saúde, especialmente em regiões com difícil deslocamento ou pouca infraestrutura médica.
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ❗ Problemática
 
-**Use Lovable**
+O acesso à saúde de qualidade ainda é um desafio em muitas regiões do Brasil, em especial no Maranhão. Com isso, a **telemedicina surge como uma solução viável**, permitindo que pacientes se conectem com profissionais de saúde remotamente. Este projeto propõe **uma plataforma acessível e intuitiva para facilitar esse processo**.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2c7c6127-07c3-47df-b60e-4e853e22bb35) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🌐 Funcionalidades
 
-**Use your preferred IDE**
+- Informações claras e acessíveis sobre o que é telemedicina
+- Cadastro de usuários
+- Agendamento de consultas online
+- Interface responsiva e moderna
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+---
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🛠️ Tecnologias Utilizadas
 
-Follow these steps:
+- [React](https://reactjs.org/) — Biblioteca JavaScript para interfaces de usuário
+- [Tailwind CSS](https://tailwindcss.com/) — Framework de CSS utilitário para estilização rápida
+- [TypeScript](https://www.typescriptlang.org/) — Superset do JavaScript com tipagem estática
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+---
+
+## 🚀 Como Rodar o Projeto
+
+Siga os passos abaixo para executar o projeto localmente:
+
+```bash
+# Step 1: Clone o repositório
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Acesse o diretório do projeto
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Instale as dependências
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Inicie o servidor de desenvolvimento
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/2c7c6127-07c3-47df-b60e-4e853e22bb35) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)

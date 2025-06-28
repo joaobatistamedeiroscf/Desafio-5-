@@ -88,10 +88,9 @@ const Dashboard = () => {
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <div className={`w-16 h-16 ${item.bgColor} rounded-2xl flex items-center justify-center mb-4 mx-auto shadow-lg`}>
-                {typeof item.icon === 'function' ? (
-                  <item.icon />
-                ) : (
-                  <item.icon size={32} className={item.iconColor} />
+                {React.createElement(
+                  item.icon,
+                  { size: 32, className: item.iconColor }
                 )}
               </div>
               <p className="text-white font-medium text-center">{item.label}</p>

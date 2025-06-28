@@ -52,11 +52,12 @@ const ForgotPassword = () => {
         </div>
 
         <div className="bg-telemed-lightBlue/20 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-white/10 animate-fade-in">
-          {/* Search Icon */}
-          <div className="flex justify-center mb-8">
-            <div className="w-32 h-32 bg-white/10 rounded-2xl flex items-center justify-center border-2 border-white/20">
-              <div className="text-6xl">🔍</div>
-            </div>
+          {/* Logo Image */}
+          <div className="flex justify-center  mt-0">
+            <img
+              src="/public/assets/homemcomlupa.png"
+              alt="Homem com Lupa"
+            />
           </div>
 
           <h2 className="text-white text-xl font-semibold text-center mb-2">ENCONTRE A SUA CONTA</h2>

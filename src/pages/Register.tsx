@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
@@ -73,15 +72,13 @@ const Register = () => {
         </div>
 
         <div className="bg-telemed-lightBlue/20 backdrop-blur-sm rounded-3xl p-8 shadow-2xl border border-white/10 animate-fade-in">
-          
-             {/* Imagem acima do campo de email */}
-            <div className="flex justify-center mb-8">
-              <img
-                src="/public/assets/cadastro.png" // Altere para o caminho da sua imagem
-                alt="Logo Telemed Maranhão"
-
-              />
-            </div>
+          {/* Aproximação da imagem do topo */}
+          <div className="flex justify-center  mt-0">
+            <img
+              src="/public/assets/cadastro.png"
+              alt="Logo Telemed Maranhão"
+            />
+          </div>
 
            <form onSubmit={handleSubmit} className="space-y-4">
             {/* Nome Completo */}
