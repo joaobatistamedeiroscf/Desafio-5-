@@ -64,7 +64,6 @@ O acesso à saúde de qualidade ainda é um desafio em muitas regiões do Brasil
 ├── tsconfig.node.json
 └── vite.config.ts
 
-
 ## 🛠️ Tecnologias Utilizadas
 
 - [React](https://reactjs.org/) — Biblioteca JavaScript para interfaces de usuário
@@ -72,6 +71,12 @@ O acesso à saúde de qualidade ainda é um desafio em muitas regiões do Brasil
 - [TypeScript](https://www.typescriptlang.org/) — Superset do JavaScript com tipagem estática
 
 ---
+
+## 🖼️ Página Inicial
+
+Abaixo está um exemplo da interface principal do projeto:
+
+public/assets/print.png
 
 ## 🚀 Como Rodar o Projeto
 
@@ -90,10 +95,3 @@ npm i
 # Step 4: Inicie o servidor de desenvolvimento
 npm run dev
 
----
-
-## 🖼️ Página Inicial
-
-Abaixo está um exemplo da interface principal do projeto:
-
-public/assets/print.png
