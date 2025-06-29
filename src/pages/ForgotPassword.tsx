@@ -55,7 +55,7 @@ const ForgotPassword = () => {
           {/* Logo Image */}
           <div className="flex justify-center  mt-0">
             <img
-              src="/assets/homemcomlupa.png"
+              src="/assets/homemComlupa.png"
               alt="Homem com Lupa"
             />
           </div>
