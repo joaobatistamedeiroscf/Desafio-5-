@@ -19,7 +19,7 @@ O acesso à saúde de qualidade ainda é um desafio em muitas regiões do Brasil
 - Agendamento de consultas online
 - Interface responsiva e moderna
 
-## 📁 Estrutura de Pastas
+## 📁 Estrutura do Projeto
 
 ```
 📦 projeto-telemedicina
