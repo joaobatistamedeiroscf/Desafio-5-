@@ -21,6 +21,50 @@ O acesso à saúde de qualidade ainda é um desafio em muitas regiões do Brasil
 
 ---
 
+## 📁 Estrutura de Pastas
+
+📦 projeto-telemedicina
+├── node_modules/
+├── public/
+│   └── assets/
+│       ├── cadastro.png
+│       ├── favicon.png
+│       ├── foto.png
+│       ├── homemComLaptop.png
+│       ├── placeholder.svg
+│       ├── robots.txt
+│       └── print.png              # <-- Imagem da interface
+├── src/
+│   ├── components/                # Componentes reutilizáveis
+│   ├── contexts/                  # Context API (auth, tema etc.)
+│   ├── hooks/                     # Hooks personalizados
+│   ├── lib/                       # Utilitários ou integrações
+│   ├── pages/                     # Páginas da aplicação
+│   │   ├── Agendamento.tsx
+│   │   ├── Dashboard.tsx
+│   │   ├── ForgotPassword.tsx
+│   │   ├── Index.tsx
+│   │   ├── Login.tsx
+│   │   ├── NotFound.tsx
+│   │   └── Register.tsx
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── vite-env.d.ts
+├── .eslintrc.cjs
+├── bun.lockb
+├── components.json
+├── index.html
+├── package.json
+├── package-lock.json
+├── postcss.config.js
+├── tailwind.config.ts
+├── tsconfig.json
+├── tsconfig.app.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+
 ## 🛠️ Tecnologias Utilizadas
 
 - [React](https://reactjs.org/) — Biblioteca JavaScript para interfaces de usuário
@@ -45,3 +89,11 @@ npm i
 
 # Step 4: Inicie o servidor de desenvolvimento
 npm run dev
+
+---
+
+## 🖼️ Página Inicial
+
+Abaixo está um exemplo da interface principal do projeto:
+
+public/assets/print.png
