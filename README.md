@@ -22,7 +22,7 @@ O acesso à saúde de qualidade ainda é um desafio em muitas regiões do Brasil
 ## 📁 Estrutura do Projeto
 
 ```
-📦 projeto-telemedicina
+ 📦 projeto-telemedicina
 ├── node_modules/
 ├── public/
 │   └── assets/
