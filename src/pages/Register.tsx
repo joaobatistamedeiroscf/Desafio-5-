@@ -75,7 +75,7 @@ const Register = () => {
           {/* Aproximação da imagem do topo */}
           <div className="flex justify-center  mt-0">
             <img
-              src="/public/assets/cadastro.png"
+              src="assets/cadastro.png"
               alt="Logo Telemed Maranhão"
             />
           </div>

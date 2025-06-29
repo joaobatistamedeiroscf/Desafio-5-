@@ -45,7 +45,7 @@ const Login = () => {
             {/* Imagem acima do campo de email */}
             <div className="flex justify-center mb-8">
               <img
-                src="/public/assets/foto.png" // Altere para o caminho da sua imagem
+                src="/assets/foto.png"
                 alt="Logo Telemed Maranhão"
                 width={206}
                 height={206}
