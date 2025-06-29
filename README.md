@@ -19,10 +19,9 @@ O acesso à saúde de qualidade ainda é um desafio em muitas regiões do Brasil
 - Agendamento de consultas online
 - Interface responsiva e moderna
 
----
-
 ## 📁 Estrutura de Pastas
 
+```
 📦 projeto-telemedicina
 ├── node_modules/
 ├── public/
@@ -63,6 +62,7 @@ O acesso à saúde de qualidade ainda é um desafio em muitas regiões do Brasil
 ├── tsconfig.app.json
 ├── tsconfig.node.json
 └── vite.config.ts
+```
 
 ## 🛠️ Tecnologias Utilizadas
 
@@ -74,9 +74,10 @@ O acesso à saúde de qualidade ainda é um desafio em muitas regiões do Brasil
 
 ## 🖼️ Página Inicial
 
-Abaixo está um exemplo da interface principal do projeto:
+Abaixo está um exemplo da interface de login do projeto:
 
-public/assets/print.png
+![Print da página inicial](./public/assets/print.png)
+
 
 ## 🚀 Como Rodar o Projeto
 
