@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { ArrowLeft } from 'lucide-react';
@@ -27,33 +26,32 @@ const Agendamento = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-telemed-blue to-telemed-darkBlue">
+    <div className="min-h-screen bg-blue-50">
       {/* Header */}
-      <div className="bg-telemed-blue/80 backdrop-blur-sm p-4 border-b border-white/10">
+      <div className="bg-blue-600 p-4 shadow-sm">
         <div className="flex items-center space-x-4">
           <Button
             variant="ghost"
             onClick={() => navigate('/dashboard')}
-            className="text-white hover:bg-white/10 p-2 rounded-full"
+            className="text-white hover:bg-blue-700 p-2 rounded-full"
           >
             <ArrowLeft size={20} />
           </Button>
-          <h1 className="text-white text-lg font-semibold">Agendamento</h1>
+          <h1 className="text-white text-xl font-semibold">Agendamento</h1>
         </div>
       </div>
 
       {/* Especialidades List */}
-      <div className="p-4 space-y-3">
+      <div className="p-4 space-y-4">
         {especialidades.map((especialidade, index) => (
           <button
             key={especialidade}
             onClick={() => handleEspecialidadeClick(especialidade)}
-            className="w-full bg-white/10 backdrop-blur-sm rounded-xl p-6 border border-white/20 hover:bg-white/20 transition-all duration-200 animate-fade-in"
-            style={{ animationDelay: `${index * 50}ms` }}
+            className="w-full bg-white p-4 rounded-lg border border-blue-100 hover:border-blue-300 hover:shadow-md transition-all duration-200 text-left"
           >
             <div className="flex items-center justify-between">
-              <span className="text-white font-medium text-left">{especialidade}</span>
-              <div className="w-2 h-2 bg-white/50 rounded-full"></div>
+              <span className="text-blue-900 font-medium">{especialidade}</span>
+              <div className="w-2 h-2 rounded-full bg-blue-400"></div>
             </div>
           </button>
         ))}
