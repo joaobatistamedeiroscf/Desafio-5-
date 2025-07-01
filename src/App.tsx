@@ -7,6 +7,8 @@ import { AuthProvider } from "./contexts/AuthContext";
 import ProtectedRoute from "./components/ProtectedRoute";
 
 // Pages
+import Localizacao from "./pages/Localizacao";
+import Telefone from "./pages/Telefone";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
 import ForgotPassword from "./pages/ForgotPassword";
@@ -48,6 +50,18 @@ const App = () => (
                 <Medicamentos />
               </ProtectedRoute>
             } />
+            <Route path="/telefone" element={
+              <ProtectedRoute>
+                <Telefone />
+              </ProtectedRoute>
+            } />
+            <Route path="/localizacao" element={
+              <ProtectedRoute>
+                <Localizacao />
+              </ProtectedRoute>
+            } />
+
+            
             
             {/* Catch all - redirect to login */}
             <Route path="*" element={<Navigate to="/login" replace />} />

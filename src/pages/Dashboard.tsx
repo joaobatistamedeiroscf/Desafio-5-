@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import { ArrowRight, Plus, Phone, MapPin } from 'lucide-react';
+import { ArrowRight, Plus, Phone, MapPin, BarChart2 } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { Button } from '@/components/ui/button';
 
@@ -40,14 +39,25 @@ const Dashboard = () => {
     {
       icon: Phone,
       label: 'Telefone',
-      onClick: () => {},
+      onClick: () => navigate('/telefone'),
       bgColor: 'bg-white',
       iconColor: 'text-telemed-blue',
     },
     {
       icon: MapPin,
       label: 'Localização',
-      onClick: () => {},
+      onClick: () => navigate('/localizacao'),
+      bgColor: 'bg-white',
+      iconColor: 'text-telemed-blue',
+    },
+    {
+      icon: BarChart2,
+      label: 'Análise de Dados',
+      onClick: () =>
+        window.open(
+          'https://app.powerbi.com/view?r=eyJrIjoiOGExOGI0ZTAtNmY2ZC00ZTY5LTkxNGMtMDNmYWNjNzE4Zjk1IiwidCI6ImIzYzAwMzk5LTEwNjEtNGEyOS04NWE2LWQxNWEyMzljM2FkNSJ9',
+          '_blank'
+        ),
       bgColor: 'bg-white',
       iconColor: 'text-telemed-blue',
     },
