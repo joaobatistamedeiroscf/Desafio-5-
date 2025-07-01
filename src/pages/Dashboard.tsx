@@ -33,7 +33,7 @@ const Dashboard = () => {
         </div>
       ),
       label: 'Medicamentos',
-      onClick: () => {},
+      onClick: () => navigate('/medicamentos'),
       bgColor: 'bg-white',
       iconColor: 'text-telemed-blue',
     },
